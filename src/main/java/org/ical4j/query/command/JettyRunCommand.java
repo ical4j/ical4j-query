@@ -9,7 +9,8 @@ import org.ical4j.query.ICalendarQueryServlet;
 import org.slf4j.LoggerFactory;
 import picocli.CommandLine;
 
-@CommandLine.Command(name = "jetty", description = "Start Jetty service for calendar queries")
+@CommandLine.Command(name = "jetty", description = "Start Jetty service for calendar queries",
+        subcommands = {CommandLine.HelpCommand.class})
 public class JettyRunCommand implements Runnable{
 
     @Override
