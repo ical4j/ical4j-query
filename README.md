@@ -2,6 +2,10 @@
 
 A service for filtering iCalendar collections using iCal4j filter expressions
 
+**NOTE: This library has been merged with ical4j-command and will
+receive no further updates.**
+
+
 ## Examples
 
 ### Find Boxing Day in a collection of public holidays
